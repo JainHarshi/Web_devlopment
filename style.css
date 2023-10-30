@@ -1,29 +1,92 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-}
-html, body{
+    color: white;
+    font-family: gilroy;
+}html, body{
     height: 100%;
     width: 100%;
 }
-/* h4{
-    color: rgb(23, 192, 136);
-    background-color: aliceblue;
-    font-size: 100px;
-    font-weight: 900;
-    font-style: italic;
-    font-family: serif;
-} */
-#bg{
+#parent{
     height: 100%;
     width: 100%;
-    background-image: url(https://media.distractify.com/brand-img/lWPlyBMh5/1600x838/mismatched2-1606193169908.jpg);
-    background-size: cover;
+    background-color: black;
+}#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: goldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px; 
 }
 h1{
-    color: white;
-    font-size: 100px;
-    text-align: center;
+    font-size: 25px;
     font-weight: 100;
+}
+#nav h1{
+    padding: 15px;
+}
+#center{
+    margin-top: 120px;
+    /* background-color: red; */
+    /* width: 80%; */
+}
+#center h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 125px;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    z-index: 9;
+}
+#center h1:nth-child(2){
+    text-align: center;
+}
+#center h1:nth-child(3){
+    text-align: center;
+}
+/* #parent #hello{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+} */
+/* #parent #Harshi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+#parent #Jain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+} */
+img{
+    top: 50%;
+    left: 50%;
+    height: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+#img1{
+    rotate: 15deg;
+}
+#center #img2{
+    rotate: 7deg;
+}
+#img2{
+    rotate: 18deg;
 }
