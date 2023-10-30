@@ -1,0 +1,12 @@
+top and left will not work without position absolute 
+display fley set at horizontal
+position absolute in center
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform : translate(-50% , -50%)
+}
+align item - y
+justified content - x
+justified content - space between , space around, space evenly

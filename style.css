@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/* h4{
+    color: rgb(23, 192, 136);
+    background-color: aliceblue;
+    font-size: 100px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: serif;
+} */
+#bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.distractify.com/brand-img/lWPlyBMh5/1600x838/mismatched2-1606193169908.jpg);
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 100;
+}
